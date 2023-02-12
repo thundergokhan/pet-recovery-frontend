@@ -23,4 +23,4 @@ This is a web page defined as a pet finding platform. Users can provide informat
 
 Users can specify the types of their pets by selecting the "Other" option and specifying with an additional text field. Users can choose between "Male" and "Female" options for gender. After entering the age of the pet, users can add additional details about their pet. After filling out the form, users can submit it by clicking the "Submit" button or reset it by clicking the "Reset" button.
 
-@açık-kaynak.org
+[açık-kaynak.org](https://github.com/acikkaynak)
