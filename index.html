@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pet Recovery Project</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Kayıp Evcil Hayvan</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Hakkında</a></li>
+        <li><a href="#how-it-works">Nasıl Çalışır</a></li>
+        <li><a href="#contact">İletişim</a></li>
+      </ul>
+    </nav>
+    <form action="submit-pet-info.php" method="post">
+      <div>
+        <label for="pet-name">Evcil Hayvanınızın İsmi:</label>
+        <input type="text" id="pet-name" name="pet-name" required />
+      </div>
+      <div>
+        <label for="pet-type">Türü:</label>
+        <select id="pet-type" name="pet-type" required>
+          <option value="">Evcil Hayvanınızıntürünü seçin</option>
+          <option value="dog">Köpek</option>
+          <option value="cat">Kedi</option>
+          <option value="bird">Kuş</option>
+          <option value="other">Diğer</option>
+        </select>
+      </div>
+      <div>
+        <label for="pet-gender">Cinsiyeti:</label>
+        <input
+          type="radio"
+          id="pet-gender-male"
+          name="pet-gender"
+          value="male"
+        />
+        <label for="pet-gender-male">Erkek</label>
+        <input
+          type="radio"
+          id="pet-gender-female"
+          name="pet-gender"
+          value="female"
+        />
+        <label for="pet-gender-female">Dişi</label>
+      </div>
+      <div>
+        <label for="pet-age">Evcil Hayvanınızın Yaşı:</label>
+        <input type="number" id="pet-age" name="pet-age" min="0" required />
+      </div>
+      <div>
+        <label for="pet-image">Evcil hayvannızın resmi:</label>
+        <input
+          type="file"
+          id="pet-image"
+          name="pet-image"
+          accept="image/*"
+          required
+        />
+      </div>
+      <div>
+        <label for="pet-details">Detaylar:</label>
+        <textarea id="pet-details" name="pet-details" required></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </div>
+    </form>
+
+    <main>
+      <section id="about">
+        <h2>Hakkında</h2>
+        <p>
+          Pet Recovery Project, depremzedelerin kayıp evcil hayvanlarını
+          bulmalarına yardımcı olmak için geliştirilmiş bir platformdur.
+        </p>
+      </section>
+      <section id="how-it-works">
+        <h2>Nasıl Çalışır</h2>
+        <p>
+          Pet Recovery Project, kayıp evcil hayvanlarının fotoğraf ve
+          bilgilerini depremzedeler tarafından eklenmesiyle çalışır.
+          Platformdaki diğer kullanıcılar, kayıp evcil hayvanlarına ait
+          bilgileri paylaşarak depremzedelerin hayvanlarını bulmalarına yardımcı
+          olabilir.
+        </p>
+      </section>
+      <section id="contact">
+        <h2>İletişim</h2>
+        <p>
+          Pet Recovery Project hakkında daha fazla bilgi için lütfen iletişim
+          sayfamızı ziyaret edin.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Pet Recovery</p>
+    </footer>
+    <script src="javascript.js"></script>
+  </body>
+</html>
