@@ -23,4 +23,29 @@ This is a web page defined as a pet finding platform. Users can provide informat
 
 Users can specify the types of their pets by selecting the "Other" option and specifying with an additional text field. Users can choose between "Male" and "Female" options for gender. After entering the age of the pet, users can add additional details about their pet. After filling out the form, users can submit it by clicking the "Submit" button or reset it by clicking the "Reset" button.
 
-[açık-kaynak.org](https://github.com/acikkaynak)
+Made for [açık-kaynak.org](https://github.com/acikkaynak) 
+
+1. Clone this repository to your local computer:
+
+<code>git clone https://github.com/thundergokhan/pet-recovery-frontend.git</code>
+
+
+2. Run the following command to install the required dependencies:
+
+<code>npm install</code>
+
+
+3. Run the following command to run the application on your local computer:
+
+<code>npm run serve </code>
+
+
+## Contribute
+
+If you would like to contribute to this project, please create a pull request. If you have any questions or suggestions, please open a topic.
+
+## Licence
+
+This project is licensed under the MIT license. See the `LICENSE` file for more information.
+
+
